@@ -1,11 +1,14 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Base from "../core/Base";
+import { signout } from "../auth/helper";
 
 const UserDashboard = () => {
   return (
-    <Base title="User dashboard">
+    <div title="User dashboard">
       <h1>Welcome to user dashboard page</h1>
-    </Base>
+      <p><Link to="logout">Log out</Link></p>
+    </div>
   );
 };
 

@@ -5,6 +5,8 @@ import Base from "./Base";
 
 import "../styles.css";
 import Card from "./Card";
+import Hero from "../components/hero/Hero";
+import Form from "../components/form/Form";
 
 export default function Home() {
   const [products, setProducts] = useState([]);
@@ -27,9 +29,10 @@ export default function Home() {
   }, []);
 
   return (
-    <Base title="Home Page" description="Welcome to Tshirt store">
-      <h1>Home component</h1>
-      <div className="row">
+    <div>
+      <Hero/>
+      
+      {/* <div className="row">
         {products.map((product, index) => {
           return (
             <div key={index} className="col-4 mb-4">
@@ -37,7 +40,8 @@ export default function Home() {
             </div>
           );
         })}
+      </div> */}
+      <Form />
       </div>
-    </Base>
   );
 }

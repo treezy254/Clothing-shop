@@ -1,0 +1,72 @@
+.hero{
+    margin-top: 30px;
+}
+
+.hero--desc{
+    box-sizing: border-box;
+
+    margin-top: 550px;
+    position: relative;
+    width: 100%;
+    height: 700px;
+    left: 0px;
+    /* top: 1080px; */
+    /* margin-top: 28px; */
+    background: rgba(255, 255, 255, 0.4);
+
+    display: block;
+}
+
+
+.hero--description{
+    position: relative;
+    width: 987px;
+    
+    /* height: 468.68px; */
+    left: 220px;
+    /* top: 1121px; */
+
+    font-family: normal normal normal 72px/1.25em poppins-extralight,poppins,sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 72px;
+    line-height: 1.25em;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #616057;
+}
+
+.hero--add{
+    position: relative;
+    width: 765px;
+    /* height: 193.11px; */
+    left: 577px;
+    /* top: 1408px; */
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #202020;
+}
+
+.product--carousel{
+    columns: 4;
+    padding: 20px;
+    padding-left: 35px;
+    background-color: rgb(247, 245, 238);
+    display: flex;
+    margin-left: -16px;
+}
+
+.shop--col{
+    margin-left: 10px;
+    margin-right: 10px;
+}

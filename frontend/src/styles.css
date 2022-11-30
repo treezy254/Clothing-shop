@@ -1,3 +1,14 @@
-body {
-  background: #343a40;
+body{
+  background-image: url(/public/cloth.webp);
+  background-repeat: no-repeat;
+  background-size: 100% 140%;
+  background-attachment: fixed;
+  max-width: 100%;
+  overflow-x: hidden;
+  opacity: 1;
+  transform: 1;
+}
+
+button{
+  cursor: pointer;
 }

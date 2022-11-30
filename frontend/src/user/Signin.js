@@ -136,7 +136,7 @@ const Signin = () => {
   };
 
   return (
-    <Base title="Welcome to sign in page" description="A tshirt store">
+    <div title="Welcome to sign in page" description="A tshirt store">
       {loadingMessage()}
 
       {signInForm()}
@@ -144,7 +144,7 @@ const Signin = () => {
       //   {JSON.stringify(values)}
       // </p> */}
       {performRedirect()}
-    </Base>
+    </div>
   );
 };
 

@@ -1,0 +1,20 @@
+.testimonials{
+    background-color: rgb(241, 235, 221);
+    height: 400px;
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 100px;
+    color: #323232;
+}
+
+.test{
+    margin-bottom: 50px;
+}
+
+.ears{
+    width: 50px;
+    height: 50px;
+    margin-left: 650px;
+    margin-bottom: 20px;
+    color: #323232;
+}

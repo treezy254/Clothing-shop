@@ -1,0 +1,72 @@
+.profile--section{
+    display: flex;
+    position: relative;
+    
+    margin-left: 100px;
+    margin-top: 40px;
+}
+
+.profile--main{
+    text-align: center;
+    margin-top: 38px;
+    background-color: #F7F5EE;
+}
+
+.personal--info{
+    margin-left: 180px;
+}
+
+.personal--input{
+    width: 200px;
+    height: 40px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+}
+
+.personal--names{
+    display: flex;
+    padding: 10px;
+}
+
+.personal--details{
+    display: flex;
+}
+
+#pi{
+    padding: 5px;
+}
+
+.personal--buttons{
+    margin-left: 70px;
+}
+
+.personal--btn{
+    width: 100px;
+    height: 40px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+#update{
+    background-color: rgb(97, 96, 87);
+    border: none;
+    color: #F7F5EE;
+}
+
+.personal--signout{
+    background-color: red;
+    color: #F7F5EE;
+    width: 200px;
+    height: 40px;
+    border: none;
+    margin-top: 40px;
+}
+
+.profile--orders{
+    border: 1px solid #333;
+    
+    padding: 10px;
+}

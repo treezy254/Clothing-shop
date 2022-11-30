@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Redirect } from "react-router-dom";
+import { Link, Redirect } from "react-router-dom";
 import { cartEmpty } from "./helper/cartHelper";
 import { getmeToken, processPayment } from "./helper/paymentHelper";
 import { createOrder } from "./helper/orderHelper";
@@ -132,9 +132,9 @@ const PaymentB = ({
               </DropIn>
               <button
                 onClick={onPurchase}
-                className="btn btn-block btn-success"
+                className="checkout--btn"
               >
-                Buy Now
+                Checkout
               </button>
             </div>
           )
@@ -147,7 +147,9 @@ const PaymentB = ({
 
   return (
     <div>
-      <h3>Your bill is $ {getAmount()}</h3>
+      <h3>Subtotal &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $ {getAmount()}</h3>
+      <p><Link to="#">Estimate Shipping</Link></p>
+      <p>Total &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $ {getAmount()}</p>
       {showbtnDropIn()}
     </div>
   );

@@ -1,0 +1,156 @@
+.formx{
+    position: relative;
+    width: 1920px;
+    height: 900px;
+    left: 0px;
+    top: 0px;
+    margin-top: 18px;
+    padding-top: 20px;
+
+    background: #F7F5EE;
+}
+
+
+.shout{
+    position: relative;
+    width: 919px;
+    height: 375.92px;
+    left: 41px;
+    /* top: 20px;     */
+}
+
+#give{
+    position: absolute;
+    width: 919px;
+    height: 232px;
+    left: 41px;
+    top: 33px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.05em;
+
+    color: #616057;
+}
+
+#cty{
+    position: absolute;
+    width: 777.67px;
+    height: 179.13px;
+    margin-left: 180px;
+    top: 131px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #202020;
+}
+
+#ema{
+    position: absolute;
+    width: 750.5px;
+    height: 162.84px;
+    margin-left: 130px;
+    top: 205px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #202020;
+}
+
+#pho{
+    position: absolute;
+    width: 609.57px;
+    height: 109.92px;
+    margin-left: 130px;
+    top: 299px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #202020;
+}
+
+.form{
+    position: absolute;
+    width: 825px;
+    height: 922.17px;
+    left: 850px;
+    top: 52px;
+    padding-top: 40px;
+}
+
+.dope{
+    width: 400px;
+    height: 40px;
+}
+
+.form--drip{
+    columns: 2;
+}
+
+.form--mail{
+    width: 200px;
+    height: 40px;
+}
+
+.form--phone{
+    width: 180px;
+    height: 40px;
+    margin-left: -200px;
+}
+
+#phoneey{
+    margin-left: -200px;
+}
+
+label{
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 36px;
+align-items: center;
+
+color: #323232;
+}
+
+.form--message{
+    width: 400px;
+    height: 100px;
+}
+
+.form--submit{
+    text-align: center;
+    width: 160px;
+    height: 40px;
+    margin-left: 130px;
+    background-color: #323232;
+    color: #F7F5EE;
+}

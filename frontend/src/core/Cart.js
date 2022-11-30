@@ -39,7 +39,7 @@ const Cart = () => {
   };
 
   return (
-    <Base title="Cart page" description="Welcome to checkout">
+    <div title="Cart page" description="Welcome to checkout">
       <div className="row text-center">
         <div className="col-6">
           {products.length > 0 ? (loadAllProducts(products)) : (
@@ -56,7 +56,7 @@ const Cart = () => {
             )}
         </div>
       </div>
-    </Base>
+    </div>
   );
 };
 

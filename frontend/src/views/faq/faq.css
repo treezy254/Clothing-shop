@@ -1,0 +1,186 @@
+.faq{
+    position: relative;
+width: 1920px;
+height: 1080px;
+left: 0px;
+margin-top: 30px;
+/* chop: 210px; */
+
+background: #F1EBDD;
+}
+
+.faq--common{
+    position: relative;
+width: 664px;
+height: 213px;
+left: 0px;
+/* chop: 353px; */
+}
+
+#faq--common{
+    position: relative;
+width: 664px;
+height: 150px;
+left: 365px;
+/* chop: 353px; */
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 60px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #616057;
+}
+
+#faq--info{
+    
+position: relative;
+width: 336px;
+height: 107px;
+left: 610px;
+/* chop: 459px; */
+margin-top: -80px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 27px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #323232;
+}
+
+.faq--pay{
+    position: relative;
+width: 696px;
+height: 276px;
+left: 200px;
+/* chop: 740px; */
+margin-top: 100px;
+}
+
+#faq--options{
+    position: relative;
+width: 409px;
+height: 58px;
+left: 20px;
+/* chop: 740px; */
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 33px;
+display: flex;
+align-items: center;
+
+color: #616057;
+
+}
+
+#faq--pop{
+    position: relative;
+width: 696px;
+height: 206px;
+left: 20px;
+/* chop: 810px; */
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 22px;
+
+color: #202020;
+}
+
+.faq--policy{
+    position: relative;
+width: 571px;
+height: 199px;
+left: 200px;
+/* chop: 1084px; */
+margin-top: -60px;
+
+}
+
+#faq--policy{
+    position: relative;
+width: 413px;
+height: 84px;
+left: 20px;
+/* chop: 1084px; */
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 33px;
+
+color: #616057;
+}
+
+#faq--return{
+    position: relative;
+width: 571px;
+height: 139px;
+left: 20px;
+/* chop: 1144px; */
+margin-top: -40px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 22px;
+
+color: #202020;
+}
+
+.faq--gift{
+    position: relative;
+width: 553px;
+height: 215px;
+left: 200px;
+/* chop: 1373px; */
+}
+
+#faq--card{
+    position: relative;
+width: 379px;
+height: 58px;
+left: 20px;
+/* chop: 1373px; */
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 33px;
+
+color: #616057;
+}
+
+#faq--offer{
+    position: relative;
+width: 553px;
+height: 145px;
+left: 20px;
+/* chop: 1443px; */
+margin-top: -20px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 22px;
+
+color: #202020;
+}

@@ -1,0 +1,42 @@
+.auth {
+    text-align: center;
+    margin-top: 40px;
+    height: 380px;
+    background-color: #F7F5EE;
+}
+
+
+.signup--btn{
+    width: 340px;
+    height: 40px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: none;
+}
+
+#fb{
+    background-color: #3b5998;
+    color: #fff;
+}
+
+#gg{
+    background-color: #e53935;
+    color: #fff;
+}
+
+#em{
+    border: 1px solid #3c3c3c;
+    text-decoration: none;
+    color: #3c3c3c;
+}
+
+
+.auth--sub{
+    width: 180px;
+    height: 40px;
+    margin-left: 60px;
+    margin-top: 10px;
+    background-color: #3b5998;
+    border: none;
+    color: #F7F5EE;
+}
